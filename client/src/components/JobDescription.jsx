@@ -53,18 +53,18 @@ export default function JobDescription({ value, onChange }) {
       </label>
 
       <textarea
-  id="job-description"
-  value={value}
-  onChange={(e) => onChange(e.target.value)}
-  placeholder="Paste the job responsibilities, required skills and qualifications..."
-  rows={7}
-  maxLength={15000}
- className={`min-h-48 w-full resize-none overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden rounded-xl border p-4 text-sm leading-7 outline-none transition-colors placeholder:opacity-70 focus:ring-2 focus:ring-[#B18B43]/30 sm:min-h-56 ${
-  isDark
-    ? "border-white/10 bg-[#090A0C] text-stone-100 placeholder:text-stone-500 focus:border-[#D8BD83]/50"
-    : "border-stone-200 bg-white text-stone-900 placeholder:text-stone-400 focus:border-[#B18B43]"
-}`}
-/>
+        id="job-description"
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        placeholder="Paste the job responsibilities, required skills and qualifications..."
+        rows={7}
+        maxLength={15000}
+        className={`min-h-48 w-full resize-none overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden rounded-xl border p-4 text-sm leading-7 outline-none transition-colors placeholder:opacity-70 focus:ring-2 focus:ring-[#B18B43]/30 sm:min-h-56 ${
+          isDark
+            ? "border-white/10 bg-[#090A0C] text-stone-100 placeholder:text-stone-500 focus:border-[#D8BD83]/50"
+            : "border-stone-200 bg-white text-stone-900 placeholder:text-stone-400 focus:border-[#B18B43]"
+        }`}
+      />
       <p
         className={`mt-2 text-right text-xs ${
           isDark ? "text-stone-500" : "text-stone-500"

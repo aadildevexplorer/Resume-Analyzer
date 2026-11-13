@@ -1,10 +1,5 @@
 import { useRef } from "react";
-import {
-  FileText,
-  UploadCloud,
-  X,
-  FileCheck2,
-} from "lucide-react";
+import { FileText, UploadCloud, X, FileCheck2 } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 
 export default function ResumeUpload({ file, onChange }) {

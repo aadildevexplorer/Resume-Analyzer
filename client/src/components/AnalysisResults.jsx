@@ -172,7 +172,7 @@ function ATSScoreCard({ score, isDark }) {
   );
 }
 
-export default function AnalysisResults({ analysis , jobTitle  }) {
+export default function AnalysisResults({ analysis, jobTitle }) {
   const { theme } = useTheme();
   const isDark = theme === "dark";
 
@@ -212,7 +212,7 @@ export default function AnalysisResults({ analysis , jobTitle  }) {
             console.log("Download function:", DownloadAnalysisPdf);
             console.log("Analysis data:", analysis);
 
-            DownloadAnalysisPdf(analysis , jobTitle);
+            DownloadAnalysisPdf(analysis, jobTitle);
           }}
           className="inline-flex items-center gap-2 cursor-pointer rounded-xl bg-[#B18B43] px-4 py-2.5 text-sm font-medium text-white"
         >
